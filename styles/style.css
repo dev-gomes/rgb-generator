@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+
+/* -------------- Global -------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	background: #404040;
+	color: #fff;
+}
+
+/* -------------- Header -------------- */
+
+#logo {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+/* -------------- Main -------------- */
+main {
+	width: min(90vw, 800px);
+    margin: auto;
+    text-align: center;
+}
+
+main section {
+	background: #5c5c5c;
+	padding: 4rem;
+}
+
+main #circle {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	margin: 2rem auto;
+}
+
+/* -------------- Range Inputs Styles -------------- */
+
+
+/* --- Red --- */
+#r-input {
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#r-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%; 
+  background: #ff4538;
+  cursor: pointer;
+}
+
+#r-input::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background: #ff4538;
+  cursor: pointer;
+}
+
+/* --- Green --- */
+#g-input {
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#g-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%; 
+  background: #74ff38;
+  cursor: pointer;
+}
+
+#g-input::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background: #74ff38;
+  cursor: pointer;
+}
+
+/* --- Blue --- */
+#b-input {
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#b-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%; 
+  background: #3895ff;
+  cursor: pointer;
+}
+
+#b-input::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background: #3895ff;
+  cursor: pointer;
+}
+
+/* -------------- Footer -------------- */
+
+footer p {
+	text-align: center;
+	margin: 2rem 0;
+}
